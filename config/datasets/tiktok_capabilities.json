@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status_values": [
+    "已由官方文档确认",
+    "当前应用已配置",
+    "已由真实店铺测试成功",
+    "需要额外权限",
+    "已确认不可用",
+    "尚未验证"
+  ],
+  "capabilities": [
+    {"business_module": "授权店铺", "status": "已由真实店铺测试成功"},
+    {"business_module": "店铺信息", "status": "尚未验证"},
+    {"business_module": "商品和 SKU", "status": "已由真实店铺测试成功"},
+    {"business_module": "订单与订单明细", "status": "已由真实店铺测试成功"},
+    {"business_module": "退款、退货、取消", "status": "尚未验证"},
+    {"business_module": "财务结算和交易明细", "status": "尚未验证"},
+    {"business_module": "达人/联盟合作", "status": "需要额外权限"},
+    {"business_module": "样品", "status": "尚未验证"},
+    {"business_module": "联盟订单", "status": "需要额外权限"},
+    {"business_module": "视频列表", "status": "尚未验证"},
+    {"business_module": "视频表现", "status": "已由真实店铺测试成功"},
+    {"business_module": "视频商品表现", "status": "已由真实店铺测试成功"},
+    {"business_module": "商品表现", "status": "已由真实店铺测试成功"},
+    {"business_module": "SKU 表现", "status": "已由真实店铺测试成功"},
+    {"business_module": "直播表现", "status": "已由真实店铺测试成功"},
+    {"business_module": "店铺整体经营指标", "status": "已由真实店铺测试成功"},
+    {"business_module": "官方异步报表任务", "status": "尚未验证"},
+    {"business_module": "Seller Center 导出等价能力", "status": "尚未验证"},
+    {"business_module": "广告和 GMV Max", "status": "尚未验证"}
+  ]
+}

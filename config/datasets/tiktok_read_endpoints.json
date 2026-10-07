@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "capability": "sps_overview_v202606",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202606/shop_performances/overview"
+    },
+    {
+      "capability": "sps_metrics_v202606",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202606/shop_performances/metrics"
+    },
+    {
+      "capability": "authorized_shops",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/authorization/202309/shops"
+    },
+    {
+      "capability": "shop_video_performance",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202605/shop_videos/performance"
+    },
+    {
+      "capability": "shop_video_performance_v202509",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202509/shop_videos/performance"
+    },
+    {
+      "capability": "shop_video_product_performance_v202409",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/analytics/202409/shop_videos/[0-9]+/products/performance$"
+    },
+    {
+      "capability": "shop_video_performance_detail_v202509",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/analytics/202509/shop_videos/[0-9]+/performance$"
+    },
+    {
+      "capability": "shop_product_performance",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202605/shop_products/performance"
+    },
+    {
+      "capability": "shop_sku_performance",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202509/shop_skus/performance"
+    },
+    {
+      "capability": "product_performance_detail",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/analytics/202509/shop_products/[0-9]+/performance$"
+    },
+    {
+      "capability": "shop_video_performance_overview",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202509/shop_videos/overview_performance"
+    },
+    {
+      "capability": "shop_live_performance_list",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202509/shop_lives/performance"
+    },
+    {
+      "capability": "shop_live_performance_overview",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/analytics/202509/shop_lives/overview_performance"
+    },
+    {
+      "capability": "shop_live_product_performance_v202512",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/analytics/202512/shop/[0-9]+/products_performance$"
+    },
+    {
+      "capability": "shop_performance_hourly",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/analytics/202510/shop/performance/[0-9]{4}-[0-9]{2}-[0-9]{2}/performance_per_hour$"
+    },
+    {
+      "capability": "search_products_v202502",
+      "method": "POST",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/product/202502/products/search"
+    },
+    {
+      "capability": "get_product_v202309",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path_regex": "^/product/202309/products/[0-9]+$"
+    },
+    {
+      "capability": "search_orders_v202309",
+      "method": "POST",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/order/202309/orders/search"
+    },
+    {
+      "capability": "get_order_detail_v202309",
+      "method": "GET",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/order/202309/orders"
+    },
+    {
+      "capability": "search_seller_affiliate_orders_v202410",
+      "method": "POST",
+      "host": "open-api.tiktokglobalshop.com",
+      "path": "/affiliate_seller/202410/orders/search"
+    }
+  ],
+  "notes": [
+    "Get Authorized Shops 已由 TikTok Shop 官方 API Reference 确认。",
+    "加入白名单不代表当前应用 scope 已配置，也不代表真实店铺测试成功。",
+    "订单端点仅作只读经营归因；持久化前必须删除买家、地址、电话等个人信息。"
+  ]
+}
